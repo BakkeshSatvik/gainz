@@ -1,0 +1,7 @@
+{
+  "name": "gainz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
