@@ -1,0 +1,82 @@
+.content-text{
+    color: rgb(230, 173, 50);
+    font-size: 35px ;
+    font-weight: 800;
+    text-align: center;
+    vertical-align: middle;  
+}
+.content-header-logo{
+    float: right;
+}
+.content-header-text{
+    color: white;
+}
+.firstscreenimg{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+.secondscreenimg{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+.fourthscreenimg{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+.fifthscreenimg{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+}
+/* #container{
+    height: 100% !important;
+}
+ion-slides{
+    height: 100% !important;
+} */
+.title{
+    padding-bottom: 140%;
+}
+.list-items{
+    position: absolute;
+}
+.title-list-imgs{
+    padding-bottom: 180%;
+}
+.list-img{
+    height: 80px;
+}
+.img-title{
+    color: white;
+    padding-bottom: 10px;
+}
+.sixthscreenimg{
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image2 {
+    height: 150px;
+    position: absolute;
+    top: 58px;
+    left: 55px;
+  }
+  .textOnImg{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(185 139 11);
+    font-size: 20px ;
+    font-weight: 800;
+    text-align: center;
+    vertical-align: middle; 
+  }

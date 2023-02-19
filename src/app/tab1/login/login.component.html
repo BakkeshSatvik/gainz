@@ -1,0 +1,29 @@
+<ion-content text-center class="content ion-padding" [fullscreen]="true">
+    <div class="logo">
+        <img src="assets/images/gainz_logo_new.svg" width="250" height="250" />
+    </div>
+    <div class="form-cointainer">
+        <!-- <div class="text-white">
+            <small>Login with Mobile Number/Email</small>
+        </div> -->
+        <div>
+            <ion-list>
+                <ion-item fill="outline">
+                    <ion-label position="floating">Login with Mobile Number/Email</ion-label>
+                    <ion-input></ion-input>
+                </ion-item>
+            </ion-list>
+        </div>
+        <div class="login-btn-container">
+            <button (click)="logIn()" class="btn login-btn">LOGIN</button>
+        </div>
+    </div>
+    <div class="form-cointainer footer">
+        <div class="footer-msg">
+            <small class="text-white">Not on Gainz Yet? Regiser and start gaining!</small>
+        </div>
+        <div>
+            <button class="btn reg-btn" (click)="gotoReg()">REGISTER</button>
+        </div>
+    </div>
+</ion-content>

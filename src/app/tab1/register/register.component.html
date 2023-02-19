@@ -1,0 +1,61 @@
+<ion-content class="content ion-padding" [fullscreen]="true">
+  <div id="cointainer">
+    <div class="form-cointainer">
+      <ion-row>
+        <ion-col class="content-header-text" (click)="gotoLogin()">
+          <div><ion-icon name="arrow-back-outline"></ion-icon></div>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <!-- <ion-col class="content-header-text"> -->
+          <div class="content-header-text reg-text">Register With <br><span class="highlite">Gainz</span></div>
+        <!-- </ion-col>
+        <ion-col size="auto">
+          <div style="width: 150px">icon</div>
+        </ion-col> -->
+      </ion-row>
+      <ion-row>
+        <ion-list>
+          <ion-item fill="outline" class=" mb-2">
+            <ion-label position="floating">Name</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item fill="outline" class=" mb-2">
+            <ion-label position="floating">Mobile No.</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item fill="outline" class=" mb-2">
+            <ion-label position="floating">Email</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item fill="outline" class=" mb-2">
+            <ion-label position="floating">Address Line 1</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item fill="outline" class=" mb-2">
+            <ion-label position="floating">Address Line 2</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item fill="outline" class=" mb-2">
+            <ion-label position="floating">Pin Code</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item fill="outline" class=" mb-2">
+            <ion-label position="floating">Referal Code</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-checkbox slot="start"></ion-checkbox>
+            <ion-label>I accept the Terms & Condition</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-row>
+      <!-- <div>
+        I accept the Terms & Condition
+      </div> -->
+      <div>
+        <button class="btn reg-btn" (click)="register()">REGISTER</button>
+      </div>
+    </div>
+  </div>
+</ion-content>

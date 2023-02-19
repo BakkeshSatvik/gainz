@@ -1,0 +1,55 @@
+.logo{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-white{
+    color: white;
+}
+.form-cointainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.btn{
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 100%;
+}
+.login-btn{
+    background-color: #cda512;
+}
+.reg-btn{
+    background-color: #89799b;
+}
+.login-btn-container{
+    padding-top: 20px;
+}
+input{
+    width: 100%;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+.footer-msg{
+    text-align: center;
+    vertical-align: middle;  
+}
+.input-wrapper{
+    color:white !important;
+}
+.hydrated{
+    color: white;
+}
